@@ -38,6 +38,7 @@ $(document).keydown(function (x) {
 		if (x.keyCode == 88){
 			$('.ryu-cool').hide();
 			$('.ryu-still').show();
+			
 		}
 	})
 
