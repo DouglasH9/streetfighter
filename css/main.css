@@ -24,7 +24,7 @@ body {
 	height: 494px;
 }
 
-.ryu-ready, .ryu-throwing {
+.ryu-ready, .ryu-throwing, .ryu-cool {
 	display: none;
 }
 
@@ -67,7 +67,7 @@ body {
 	width:300px;
 	float:right;
 	text-align: center;
-	padding-top:4%;
+	padding-top:3%;
 	
 }
 
@@ -76,8 +76,7 @@ body {
 	font-size: 32px;
 	font-family: Comic Sans MS, Arial, Serif;
 	font-weight:bolder;
-	padding-bottom: 20px;
-	
+	padding-bottom:30px;
 }
 
 #pTop {
