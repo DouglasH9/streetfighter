@@ -32,13 +32,14 @@ $(document).keydown(function (x) {
 	if (x.keyCode == 88){
 		$('.ryu-still').hide();
 		$('.ryu-ready').hide();
+		$('.ryu-throwing').hide();
 		$('.ryu-cool').show();
 	}})
 	.keyup(function(x){
 		if (x.keyCode == 88){
 			$('.ryu-cool').hide();
 			$('.ryu-still').show();
-			
+
 		}
 	})
 
