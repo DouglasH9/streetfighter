@@ -46,7 +46,8 @@ $(document).keydown(function (x) {
 	}})
 	.keyup(function(x){
 		if (x.keyCode == 88){
-			
+			$('ryu-throwing').hide();
+			$('.ryu-ready').hide();
 			$('.ryu-cool').hide();
 			$('.ryu-still').show();
 			
